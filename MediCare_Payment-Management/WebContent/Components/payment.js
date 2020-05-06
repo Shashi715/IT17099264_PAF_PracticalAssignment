@@ -157,8 +157,9 @@ function validatePaymentForm()
 	}
 	
 	//Price
-	if($("#Price").val().trim() == ""){
-		return "Insert Price.";
+	var tmpPrice = $("#Price").val().trim();
+	if (!$.isNumeric(tmpPrice)) {
+		return "Insert a numerical value for Price.";
 	}
 		  
 	

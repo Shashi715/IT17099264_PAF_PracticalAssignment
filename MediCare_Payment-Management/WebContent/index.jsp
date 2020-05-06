@@ -68,8 +68,8 @@ if(request.getParameter("hidCustomerIdDelete") != null)
 		<br> Card Number:
 		<input id="cardNumber" name="cardNumber" type="number" class="form-control form-control-sm">
 		
-		<br> Price:
-		<input id="price" name="price" type="text" class="form-control form-control-sm">
+		<br> Price(Rs):
+		<input id="price" name="price" type="number" class="form-control form-control-sm">
 		
 		<br> Payment Description:
 		<input id="paymentDesc" name="paymentDesc" type="text" class="form-control form-control-sm">
